@@ -1,0 +1,81 @@
+﻿@page "/pessoas"
+@using BlazorApp1.Models;
+@inject BlazorApp1.Services.IPessoaService pessoaService;
+@inject IJSRuntime IJSRuntime;
+@inject NavigationManager NavigationManager;
+
+<h3>Lista de Pacientes</h3>
+
+<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                Sobrenome
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Ações
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (PessoasList != null && PessoasList.Count > 0)
+        {
+            @foreach (var Dados in PessoasList)
+            {
+
+                <tr>
+                    <td>
+                        @Dados.Id
+                    </td>
+                    <td>
+                        @Dados.Nome
+                    </td>
+                    <td>
+                        @Dados.Sobrenome
+                    </td>
+                    <td>
+                        @Dados.Descricao
+                    </td>
+                    <td>
+                        <a href="/pessoa/update/@Dados.Id" class="btn btn-success">Editar</a>
+                        <button class="btn btn-danger" @onclick="@(async () => await Delete(@Dados.Id))">Deletar</button>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <h7 class="texto">Sem Dados!</h7>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Pessoa> PessoasList = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        PessoasList = await pessoaService.GetAll();
+    }
+
+    public async Task Delete(long id)
+    {
+        bool confirm = await IJSRuntime.InvokeAsync<bool>("confirm", "Deseja apagar a pessoa? " + id);
+        if(confirm)
+        {
+            var Pessoa = await pessoaService.GetById(id);
+            await pessoaService.Delete(Pessoa);
+            PessoasList = await pessoaService.GetAll();
+            StateHasChanged();
+        }
+    }
+}
