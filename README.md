@@ -5,5 +5,5 @@
 
 - página do formulário para adicionar pacientes
 
-![image](https://github.com/ErickSolon/clinica-ficticia-blazor/assets/72041638/3a9cb50d-909a-4099-853f-898ad502d0fc)
+![image](https://github.com/ErickSolon/clinica-ficticia-blazor/assets/72041638/a516f382-3403-46bd-a2e7-68981773dff2)
 
