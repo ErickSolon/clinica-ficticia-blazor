@@ -9,6 +9,6 @@
 
 - página para edição de cadastro de paciente
 
-- ![image](https://github.com/ErickSolon/clinica-ficticia-blazor/assets/72041638/617064f9-977f-4f38-9d6b-c03e7fbad86a)
+ ![image](https://github.com/ErickSolon/clinica-ficticia-blazor/assets/72041638/617064f9-977f-4f38-9d6b-c03e7fbad86a)
 
 
