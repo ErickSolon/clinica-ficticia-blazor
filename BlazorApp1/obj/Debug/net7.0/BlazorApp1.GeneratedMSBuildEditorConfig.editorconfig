@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp1
 build_property.RootNamespace = BlazorApp1
-build_property.ProjectDir = C:\Users\erick\source\repos\BlazorApp1\BlazorApp1\
+build_property.ProjectDir = /home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\erick\source\repos\BlazorApp1\BlazorApp1
+build_property.MSBuildProjectDirectory = /home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/App.razor]
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Pages/CriarPessoa/AddPessoa.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JpYXJQZXNzb2FcQWRkUGVzc29hLnJhem9y
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Pages/CriarPessoa/AddPessoa.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JpYXJQZXNzb2EvQWRkUGVzc29hLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Pages/Pessoas/UpdatePessoa.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVzc29hc1xVcGRhdGVQZXNzb2EucmF6b3I=
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Pages/Pessoas/UpdatePessoa.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVzc29hcy9VcGRhdGVQZXNzb2EucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/_Imports.razor]
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Pages/Pessoas/TabelaPessoas.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVzc29hc1xUYWJlbGFQZXNzb2FzLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-mr9bhoj021
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Pages/Pessoas/TabelaPessoas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVzc29hcy9UYWJlbGFQZXNzb2FzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-2tiusi49ws
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-45rkf8v3vv
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-d3cbnxfwwv
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-b5wscdn8ts
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gtbtrpzvtd
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erick/source/repos/BlazorApp1/BlazorApp1/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+[/home/erick/Documentos/workspace/dotnet/clinica-ficticia-blazor/BlazorApp1/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

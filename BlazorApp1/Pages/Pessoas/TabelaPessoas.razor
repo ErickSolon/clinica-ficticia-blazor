@@ -1,5 +1,6 @@
 ﻿@page "/pessoas"
 @using BlazorApp1.Models;
+@using BlazorApp1.Utils;
 @inject BlazorApp1.Services.IPessoaService pessoaService;
 @inject IJSRuntime IJSRuntime;
 @inject NavigationManager NavigationManager;
@@ -59,6 +60,8 @@
     </tbody>
 </table>
 
+<button @onclick="@(() => ExportarTabela())" class="btn btn-success">Exportar XLSX</button>
+
 @code {
     private List<Pessoa> PessoasList = new();
 
@@ -66,16 +69,21 @@
     {
         PessoasList = await pessoaService.GetAll();
     }
-
     public async Task Delete(long id)
     {
         bool confirm = await IJSRuntime.InvokeAsync<bool>("confirm", "Deseja apagar a pessoa? " + id);
-        if(confirm)
+        if (confirm)
         {
             var Pessoa = await pessoaService.GetById(id);
             await pessoaService.Delete(Pessoa);
             PessoasList = await pessoaService.GetAll();
             StateHasChanged();
         }
+    }
+
+    public void ExportarTabela()
+    {
+        var DadosParaExportar = ExportarXlsx.Exportar(PessoasList, $"Pacientes-{DateTime.Now.ToString(@"dd-mm-yyyy")}");
+        File.WriteAllBytes($"Pacientes-{DateTime.Now.ToString(@"dd-mm-yyyy")}.xlsx", DadosParaExportar);
     }
 }

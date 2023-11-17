@@ -23,8 +23,10 @@ namespace BlazorApp1.Services
         public async Task<List<Pessoa>> GetAll()
         {
             var pessoas = await _context.Pessoas.ToListAsync();
+
             return pessoas;
         }
+
 
         public async Task<Pessoa> GetById(long id)
         {
